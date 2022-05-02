@@ -9,5 +9,6 @@ composer.phar
 # vagrant
 .vagrant
 .vagrant/*
-!sync_folder/*
+sync_folder/teste-ignore
+sync_folder/teste1
 
