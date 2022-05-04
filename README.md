@@ -1,5 +1,8 @@
-# labs-vagrant-vbx
-VMS com vagrant e virtual box para estudo.
+# Lab Vagrant com Mysql8
+* Descrição.
+
+VM criada com vagrant e virtual box para estudo do SQL com mysqldb.
+
 
 ### Pre-requisitos
 
@@ -9,6 +12,9 @@ VMS com vagrant e virtual box para estudo.
 ### Instalando o laboradorio vagrant-mysql8-lab
 
 ```python
+# Baixando o repositorio.
+
+git clone https://github.com/esilva/vagrant-mysql8-lab.git
 
 # Iniciando as VM com os seguintes commandos
 
@@ -16,6 +22,8 @@ vagrant init
 vagrant up --provision
 
 # Para acessar cada VM via ssh
+vagrant ssh 
+ou
 vagrant ssh dbserver
 
 # Para desligar as VMs
@@ -25,14 +33,6 @@ vagrant halt
 vagrant destroy
 
 ```
-
-#-------------------------------------------#
-### Declaracao de Variaveis
-#-------------------------------------------#
-
-
-
-
 
 ## Referencias de pesquisa 
 https://github.com/troysandal/mysql8-vagrant
